@@ -5,7 +5,6 @@ import DecrementSVG from './components/DecrementSVG'
 import IncrementSVG from './components/IncrementSVG'
 import Button from './components/Button';
 
-
 const Form = (props) => {
   const {
     values: {
@@ -16,19 +15,21 @@ const Form = (props) => {
     },
     errors,
     touched,
-    handleChange,
     handleBlur,
     setFieldValue,
-    submitForm,
+    handleSubmit,
     setSubmitting,
     isSubmitting,
-    isValid
+    isValid,
+    isFormReset,
+    setFormReset
   } = props;
 
   const shouldShowMessage = isSubmitting && Object.keys(props.errors).length === 0;
 
   const handleCustomChange = (fieldName, newValue) => {
     setSubmitting(false);
+    setFormReset(false);
     setFieldValue(fieldName, newValue);
   };
 
@@ -36,7 +37,7 @@ const Form = (props) => {
     <form
       autoComplete='off'
       noValidate
-      onSubmit={submitForm}
+      onSubmit={handleSubmit}
     >
       <fieldset className="header">
         <legend className="title">
@@ -57,13 +58,17 @@ const Form = (props) => {
           id="name"
           name="name"
           value={name}
-          onChange={handleChange}
+          onChange={(event) => {
+            const { value } = event.target;
+            handleCustomChange('name', value);
+          }}
           onBlur={handleBlur}
         />
         {errors.name && touched.name && (
           <div className='error-message'>{errors.name}</div>
         )}
       </fieldset>
+      
       <fieldset className='form-field'>
         <label
           htmlFor="email"
@@ -75,7 +80,10 @@ const Form = (props) => {
           id="email"
           name="email"
           value={email}
-          onChange={handleChange}
+          onChange={(event) => {
+            const { value } = event.target;
+            handleCustomChange('email', value);
+          }}
           onBlur={handleBlur}
           className='email'
         />
@@ -131,9 +139,12 @@ const Form = (props) => {
         <legend>Observações (opcional):</legend>
         <textarea
           name='description'
-          onChange={handleChange}
-          defaultValue={description}
+          onChange={(event) => {
+            const { value } = event.target;
+            handleCustomChange('description', value);
+          }}
           placeholder='Alguma dúvida? Recado?'
+          value={description}
         />
       </fieldset>
 
@@ -144,7 +155,7 @@ const Form = (props) => {
           <p>Formulário enviado com sucesso</p>
         )}
         <button
-          disabled={!isValid}
+          disabled={!isValid || isFormReset}
           type="submit"
         >
           Enviar

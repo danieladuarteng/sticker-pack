@@ -53,11 +53,14 @@ export const formik = {
   displayName: "FormStickes",
   handleSubmit: (values, formProps) => {
     const data = mapValuesToData(values);
-    formProps.resetForm()
-    formProps.setSubmitting(true)
     formProps.props.handleSubmit(data);
+    formProps.setSubmitting(true)
+
+    setTimeout(() => {
+      formProps.resetForm();
+      formProps.setSubmitting(false); 
+    }, 5000); 
   },
-  validateOnMount: () => formSchema,
   enableReinitialize: true,
   mapPropsToValues: props => {
     if (!props.initialData) return initialData;
