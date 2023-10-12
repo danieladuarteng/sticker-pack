@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sticker-pack/static/css/main.e8a95ac9.css",
+    "main.js": "/sticker-pack/static/js/main.d34b8178.js",
+    "static/media/header.png": "/sticker-pack/static/media/header.576e4ca5be25094f4be9.png",
+    "index.html": "/sticker-pack/index.html",
+    "main.e8a95ac9.css.map": "/sticker-pack/static/css/main.e8a95ac9.css.map",
+    "main.d34b8178.js.map": "/sticker-pack/static/js/main.d34b8178.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a95ac9.css",
+    "static/js/main.d34b8178.js"
+  ]
+}
