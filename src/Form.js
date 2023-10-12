@@ -22,7 +22,7 @@ const Form = (props) => {
     submitForm,
     setSubmitting,
     isSubmitting,
-    isValid 
+    isValid
   } = props;
 
   const shouldShowMessage = isSubmitting && Object.keys(props.errors).length === 0;
@@ -96,6 +96,8 @@ const Form = (props) => {
             <p>{framework}</p>
             <div className="actions">
               <Button
+                ariaLabel={`Botão que diminui a quantidade de stickers de ${framework}`}
+                dataTestid={`buttonDecrement${framework}`}
                 onBlur={handleBlur('stickers')}
                 disabledButton={count === 0}
                 onClick={event => {
@@ -111,6 +113,8 @@ const Form = (props) => {
                 {count}
               </output>
               <Button
+                ariaLabel={`Botão que aumenta a quantidade de stickers de ${framework}`}
+                dataTestid={`buttonIncrement${framework}`}
                 onBlur={handleBlur('stickers')}
                 onClick={event => {
                   event.preventDefault();
@@ -134,7 +138,7 @@ const Form = (props) => {
       </fieldset>
 
       <footer
-        className={shouldShowMessage ? 'footerWithMessage': ''}
+        className={shouldShowMessage ? 'footerWithMessage' : ''}
       >
         {shouldShowMessage && (
           <p>Formulário enviado com sucesso</p>
