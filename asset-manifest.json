@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sticker-pack/static/css/main.98ae32dd.css",
-    "main.js": "/sticker-pack/static/js/main.8d423ca9.js",
+    "main.js": "/sticker-pack/static/js/main.b5c842f8.js",
     "static/media/Inter-Regular.woff2": "/sticker-pack/static/media/Inter-Regular.e976b84791e6a5f65646.woff2",
     "static/media/header.png": "/sticker-pack/static/media/header.576e4ca5be25094f4be9.png",
     "index.html": "/sticker-pack/index.html",
     "main.98ae32dd.css.map": "/sticker-pack/static/css/main.98ae32dd.css.map",
-    "main.8d423ca9.js.map": "/sticker-pack/static/js/main.8d423ca9.js.map"
+    "main.b5c842f8.js.map": "/sticker-pack/static/js/main.b5c842f8.js.map"
   },
   "entrypoints": [
     "static/css/main.98ae32dd.css",
-    "static/js/main.8d423ca9.js"
+    "static/js/main.b5c842f8.js"
   ]
 }
