@@ -1,11 +1,12 @@
-html {
-  font-family: "Inter", sans-serif;
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter/Inter-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
+body {
+  font-family: 'Inter', sans-serif;
 }
 
 * {
