@@ -1,4 +1,4 @@
-# Form react hooks formik
+# Sticker pack
 
 ![](sticker-pack.gif)
 
