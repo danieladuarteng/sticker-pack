@@ -9,7 +9,7 @@ This project aims to create a form for the user to inform how many stickers they
 Form building in React using hooks and formik for validate fields
 
 ## Required
-[NodeJS v16.14.2 or higher](https://nodejs.org/en/)
+[NodeJS v16.14.2 or higher](https://nodejs.org/en/) and [Yarn v1.22.19 or higher](https://classic.yarnpkg.com/lang/en/docs/install/)
 
 ## Installation
 Open the terminal of your preference and input the commands:
