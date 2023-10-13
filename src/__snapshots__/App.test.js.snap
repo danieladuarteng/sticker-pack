@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should generate a snapshot of the component structure without state 1`] = `
+<body>
+  <div>
+    <form
+      autocomplete="off"
+      novalidate=""
+    >
+      <fieldset
+        class="header"
+      >
+        <legend
+          class="title"
+        >
+          Formulário
+          <br />
+          para compra de
+          <br />
+          <strong>
+            Pacote de Stickers
+          </strong>
+        </legend>
+      </fieldset>
+      <fieldset
+        class="form-field"
+      >
+        <label
+          for="name"
+        >
+          Nome:
+        </label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          value=""
+        />
+      </fieldset>
+      <fieldset
+        class="form-field"
+      >
+        <label
+          for="email"
+        >
+          Email:
+        </label>
+        <input
+          class="email"
+          id="email"
+          name="email"
+          type="email"
+          value=""
+        />
+      </fieldset>
+      <fieldset>
+        <legend
+          style="margin-bottom: 15px;"
+        >
+          Selecione a quantidade de cada sticker que você quer:
+        </legend>
+        <div
+          class="counter"
+        >
+          <p>
+            React
+          </p>
+          <div
+            class="actions"
+          >
+            <button
+              aria-label="Botão que diminui a quantidade de stickers de React"
+              data-testid="buttonDecrementReact"
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Diminuir quantidade de stickers de React"
+                data-testid="decrement-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 0A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667zm28 23.333H9.333v-4.666h23.334v4.666z"
+                />
+              </svg>
+            </button>
+            <output
+              aria-label="Quantidade de 0"
+              name="count"
+            >
+              0
+            </output>
+            <button
+              aria-label="Botão que aumenta a quantidade de stickers de React"
+              data-testid="buttonIncrementReact"
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Aumentar quantidade de stickers de React"
+                data-testid="increment-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42zm4.666-23.333h9.334V9.333h4.666v9.334h9.334v4.666h-9.334v9.334h-4.666v-9.334H9.333v-4.666z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="counter"
+        >
+          <p>
+            Vue
+          </p>
+          <div
+            class="actions"
+          >
+            <button
+              aria-label="Botão que diminui a quantidade de stickers de Vue"
+              data-testid="buttonDecrementVue"
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Diminuir quantidade de stickers de Vue"
+                data-testid="decrement-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 0A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667zm28 23.333H9.333v-4.666h23.334v4.666z"
+                />
+              </svg>
+            </button>
+            <output
+              aria-label="Quantidade de 0"
+              name="count"
+            >
+              0
+            </output>
+            <button
+              aria-label="Botão que aumenta a quantidade de stickers de Vue"
+              data-testid="buttonIncrementVue"
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Aumentar quantidade de stickers de Vue"
+                data-testid="increment-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42zm4.666-23.333h9.334V9.333h4.666v9.334h9.334v4.666h-9.334v9.334h-4.666v-9.334H9.333v-4.666z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="counter"
+        >
+          <p>
+            Angular
+          </p>
+          <div
+            class="actions"
+          >
+            <button
+              aria-label="Botão que diminui a quantidade de stickers de Angular"
+              data-testid="buttonDecrementAngular"
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Diminuir quantidade de stickers de Angular"
+                data-testid="decrement-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 0A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667zm28 23.333H9.333v-4.666h23.334v4.666z"
+                />
+              </svg>
+            </button>
+            <output
+              aria-label="Quantidade de 0"
+              name="count"
+            >
+              0
+            </output>
+            <button
+              aria-label="Botão que aumenta a quantidade de stickers de Angular"
+              data-testid="buttonIncrementAngular"
+            >
+              <svg
+                aria-hidden="true"
+                aria-labelledby="Aumentar quantidade de stickers de Angular"
+                data-testid="increment-SVG"
+                height="42"
+                width="42"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42zm4.666-23.333h9.334V9.333h4.666v9.334h9.334v4.666h-9.334v9.334h-4.666v-9.334H9.333v-4.666z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Observações (opcional):
+        </legend>
+        <textarea
+          name="description"
+          placeholder="Alguma dúvida? Recado?"
+        />
+      </fieldset>
+      <footer
+        class=""
+      >
+        <button
+          type="submit"
+        >
+          Enviar
+        </button>
+      </footer>
+    </form>
+  </div>
+</body>
+`;

@@ -68,7 +68,7 @@ const Form = (props) => {
           <div className='error-message'>{errors.name}</div>
         )}
       </fieldset>
-      
+
       <fieldset className='form-field'>
         <label
           htmlFor="email"
