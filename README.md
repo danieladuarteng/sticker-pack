@@ -16,7 +16,7 @@ Open the terminal of your preference and input the commands:
 
 `git clone https://github.com/danieladuarteng/sticker-pack.git`
 
-`cd sticker-pack
+`cd sticker-pack`
 
 `npm install`
 
