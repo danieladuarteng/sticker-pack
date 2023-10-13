@@ -18,7 +18,7 @@ Open the terminal of your preference and input the commands:
 
 `cd sticker-pack`
 
-`npm install`
+`yarn install`
 
 ## Run:
 
