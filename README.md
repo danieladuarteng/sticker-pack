@@ -24,7 +24,7 @@ Open the terminal of your preference and input the commands:
 
 To run the project enter:
 
-`npm start`
+`yarn start`
 
 ## License
 
