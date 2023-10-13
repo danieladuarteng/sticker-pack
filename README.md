@@ -4,6 +4,8 @@
 
 [Access the website](https://danieladuarteng.github.io/sticker-pack/)
 
+This project aims to create a form for the user to inform how many stickers they want
+
 Form building in React using hooks and formik for validate fields
 
 ## Required
