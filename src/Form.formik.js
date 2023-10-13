@@ -61,6 +61,7 @@ export const formik = {
       formProps.setSubmitting(false); 
     }, 5000); 
   },
+  validateOnMount: () => formSchema,
   enableReinitialize: true,
   mapPropsToValues: props => {
     if (!props.initialData) return initialData;
